@@ -13,7 +13,6 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { MobileComponent } from './products/mobile/mobile.component';
 import { LaptopComponent } from './products/laptop/laptop.component';
 import { WashingMaschineComponent } from './products/washing-maschine/washing-maschine.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +24,16 @@ import { WashingMaschineComponent } from './products/washing-maschine/washing-ma
     PagenotfoundComponent,
     MobileComponent,
     LaptopComponent,
-    WashingMaschineComponent
+    WashingMaschineComponent,
+   
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
